@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GreenTrace - Expiry Checker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="images/greentrace-logo.png.jpeg" alt="Logo">
+
+        <h2>GreenTrace</h2>
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="recipe.html">Recipes</a></li>
+
+        <li><a href="alternatives.html">Healthy Alternatives</a></li>
+
+        <li><a href="expiry.html">Expiry Checker</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+</nav>
+
+<!-- Expiry Checker Section -->
+
+<section class="expiry-section">
+
+    <div class="expiry-overlay">
+
+        <div class="expiry-container">
+
+            <!-- Left Side -->
+
+            <div class="storage-box">
+
+                <h2>📦 Storage Tips</h2>
+
+                <div class="storage-card">🥛 Store milk in the refrigerator.</div>
+
+                <div class="storage-card">🍅 Keep tomatoes at room temperature.</div>
+
+                <div class="storage-card">🍌 Don't refrigerate bananas before they ripen.</div>
+
+                <div class="storage-card">🥚 Store eggs in the refrigerator.</div>
+
+                <div class="storage-card">🥬 Store leafy vegetables in airtight containers.</div>
+
+                <div class="storage-card">🥔 Keep potatoes in a cool, dark place.</div>
+
+                <div class="storage-card">🧅 Store onions separately from potatoes.</div>
+
+                <div class="storage-card">🍞 Freeze bread for longer freshness.</div>
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="expiry-box">
+
+                <h1>Expiry Checker</h1>
+
+                <p>Check the estimated expiry date of your food items.</p>
+
+                <label>Food Item</label>
+
+                <input
+                    type="text"
+                    id="foodName"
+                    placeholder="Example: Milk">
+
+                <label>Purchase Date</label>
+
+                <input
+                    type="date"
+                    id="purchaseDate">
+
+                <button id="checkExpiry">
+
+                    Check Expiry
+
+                </button>
+
+                <div id="expiryResult"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

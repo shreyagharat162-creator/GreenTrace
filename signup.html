@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Trace - Login</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left Section -->
+       <div class="left-section">
+
+    <h1>Green Trace</h1>
+
+    <h2>Cook Smart.<br>
+        Eat Healthy.<br>
+        Reduce Waste.</h2>
+
+    <p>
+        Every meal is a chance to help
+        the planet and reduce food waste.
+    </p>
+
+</div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+
+    <div class="login-card">
+<img src="images/greentrace-logo.png.jpeg" alt="Green Trace Logo" class="logo">
+        <h2>Create Account</h2>
+
+        <p>Create  your GreenTrace account</p>
+
+        <form id="signupForm">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password">
+          <label>Confirm Password</label>
+<input type="password" placeholder="Confirm your password">
+            <button type="submit">Sign Up</button>
+
+        </form>
+
+        <p class="signup-text">
+            Already have an account? Login
+            <a href="login.html">Login</a>
+        </p>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+
+
+
+    
+    <script>
+document.getElementById("signupForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    alert("✅ Account created successfully! Please login to continue.");
+
+    window.location.href = "login.html";
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTrace - Recipe Converter</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+
+    <div class="logo">
+        <img src="images/greentrace-logo.png.jpeg" alt="Logo">
+        <h2>GreenTrace</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipe.html">Recipes</a></li>
+        <li><a href="alternatives.html">Healthy Alternatives</a></li>
+        <li><a href="expiry.html">Expiry Checker</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- Recipe Section -->
+
+<section class="recipe-section">
+<div class="recipe-heading">
+    <h1>Recipe Converter</h1>
+
+    <p>
+        Convert ingredient quantities according to the number of servings.
+    </p>
+    </div>
+<div class="recipe-container">
+
+    <div class="popular-recipes">
+        <h2>⭐ Popular Recipes</h2>
+        <div class="recipe-card">🍕 Pizza</div>
+<div class="recipe-card">🍰 Cake</div>
+<div class="recipe-card">🍗 Butter Chicken</div>
+<div class="recipe-card">🍝 Pasta</div>
+<div class="recipe-card">🥗 chicken Salad</div>
+<div class="recipe-card">🍚 Fried Rice</div>
+<div class="recipe-card">🍜 Noodles</div>
+<div class="recipe-card">🥪 Sandwich</div>
+<div class="recipe-card">🍔 Burger</div>
+<div class="recipe-card">🍛 Biryani</div>
+<div class="recipe-card">🥘 Paneer Butter Masala</div>
+<div class="recipe-card">🍞 Garlic Bread</div>
+<div class="recipe-card">🥞 Pancakes</div>
+<div class="recipe-card">🍪 Cookies</div>
+<div class="recipe-card">🍲 Tomato Soup</div>
+<div class="recipe-card">🫓 Chapati</div>
+<div class="recipe-card">🍟 French Fries</div>
+<div class="recipe-card">🧀 Mac and Cheese</div>
+<div class="recipe-card">🥗 Veg Salad</div>
+    </div>
+    <div class="divider"></div>
+    <div class="recipe-right">
+        <div class="recipe-box">
+<label>Recipe Name</label>
+<input
+type="text"
+id="recipeName"
+placeholder="Example: Pizza, Butter Chicken, Cake">
+
+        
+
+        
+
+<button type="button" id="loadRecipe">
+    Load Recipe
+</button>
+
+<div id="recipeIngredients"></div>
+<label>Required Servings</label>
+
+<input
+type="number"
+id="newServing"
+placeholder="Example: 8">
+<button type="button" id="convertRecipe">
+    Convert Recipe
+</button>
+
+<div id="result"></div>
+
+    </div>
+</div>
+</div>
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
